@@ -1,2 +1,10 @@
 Krzysztof 20
 Janusz 40
+Krzysztof 20
+Janusz 40
+Krzysztof 20 15.03.2003
+Janusz 40 20.05.1983
+Krzysztof 20 15.03.2003
+Janusz 40 20.05.1983
+Krzysztof 20 15.03.2003
+Janusz 40 20.05.1983

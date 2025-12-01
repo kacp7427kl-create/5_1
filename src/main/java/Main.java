@@ -13,15 +13,18 @@ class Main {
   public static void main(String[] args) {
     try {
       Service s = new Service();
-      s.addStudent(new Student("Krzysztof", 20));
-      s.addStudent(new Student("Janusz", 40));
+
+      // Dodano trzeci argument: datę urodzenia (String)
+      s.addStudent(new Student("Krzysztof", 20, "15.03.2003"));
+      s.addStudent(new Student("Janusz", 40, "20.05.1983"));
 
       var students = s.getStudents();
       for(Student current : students) {
         System.out.println(current.ToString());
       }
     } catch (IOException e) {
-
+        // Warto coś wypisać w razie błędu
+        System.out.println("Blad IO: " + e.getMessage());
     }
   }
 }
